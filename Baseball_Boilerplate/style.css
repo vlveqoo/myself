@@ -1,0 +1,91 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+section, form{
+  text-align: center;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  align-items: center;
+}
+
+input, button{
+  height: 50px;
+}
+
+input{
+  width: 200px;
+  font-size: 30px;
+}
+
+button{
+  padding: 0px 20px;
+  font-size: 25px;
+}
+
+#submitBtn{
+  margin-left: 10px;
+}
+
+#baseform{
+  display: flex;
+  align-items: center;
+
+}
+
+.resultbox{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: -2px 0px white, 0px 2px white, 2px 0px white, 0px -2px white;;
+}
+
+#resetBtn{
+  margin: 10px;
+}
+
+.resultlist{
+  background-color: aquamarine;
+  width: 80%;
+  height: 5px;
+  padding: 0px 10px;
+  position: relative;
+}
+
+.resultlist li{
+  list-style: none;
+  text-align: center;
+
+}
+
+.tryclip{
+  background-color: aquamarine;
+  width: 160px;
+  height: 55px;
+  position: absolute;
+  top: -55px;
+  right: 0px;
+  text-align: center;
+  line-height: 63px;
+  font-size: 22px;
+  border-radius: 10px 10px 0px 0px;
+}

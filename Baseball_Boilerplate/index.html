@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Baseball Project</title>
+  </head>
+
+  <body>
+    <section>
+      <div class="image-box">
+        <img src="images/vanilla_coding_logo.png" />
+      </div>
+      <h1>Baseball Game</h1>
+
+      <!-- 야구게임 Start -->
+        <form id="baseform">
+          <input type="text" id="inputNum">
+          <button type="submit" id="submitBtn">숫자입력</button>
+        </form>
+        <button id="resetBtn">리셋</button>
+        <div class="resultbox">
+          <div>당신의 숫자: <span id="yourNum"></span></div>
+          <div>⚾스트라이크: <span id="strike">0</span></div>
+          <div>⚾볼: <span id="ball">0</span></div>
+        </div>
+        <div class="resultlist">
+          <div class="tryclip">시도횟수: <span id="tryNum"></span></div>
+          <li>
+            <ul id="result1"></ul>
+            <ul id="result2"></ul>
+            <ul id="result3"></ul>
+            <ul id="result4"></ul>
+            <ul id="result5"></ul>
+            <ul id="result6"></ul>
+            <ul id="result7"></ul>
+            <ul id="result8"></ul>
+            <ul id="result9"></ul>
+            <ul id="result10"></ul>
+          </li>
+        </div>
+      <!-- 야구게임 End -->
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
