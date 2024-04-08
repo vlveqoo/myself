@@ -1,0 +1,28 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css");
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: "Pretendard";
+}
+
+#vaco {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 100px;
+}
+
+main {
+  border: 1px solid grey;
+  width: 420px;
+  height: 800px;
+}
