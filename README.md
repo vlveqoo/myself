@@ -103,14 +103,31 @@ npm run dev
 
 ## 📌 리서치 TODO
 
-> 과제를 진행하는 과정에서 아래 나열된 주제와 관련된 내용이 등장할 경우 특별히 세심하게 조사하고, 과제 제출 이후에 각자 조사하고 실험한 내용들을 정리하여 공유해주세요.
+> 과제 제출 이후, 조사하고 실험한 퀴즈나 내용을 정리하여 공유해주세요.
 
 <br>
 
-- [ ] Strict Mode
-- [ ] Critical Rendering Path, DOM, CSSOM, Reflow, Repaint
-- [ ] 이벤트 위임, 이벤트 캡쳐링, 이벤트 버블링
-- [ ] 이벤트 target vs currentTarget
+### 과제 시작 전 (혹은 병행)
+
+> 처음 보는 개념이라면, 과제를 시작 하기 전에 조사해보고 시작하기를 권장드립니다. 다만, 아래 전체를 모두 조사하더라도 하루를 넘기지 않도록 유의하시고 화요일에는 반드시 코드 작업을 시작하도록 하세요. 구체적인 내용을 모두 이해하지 못했더라도, 언제 사용해야 할지 대략적인 파악만 되었다면 과제 작업을 하면서 조사를 병행하셔도 괜찮습니다.
+
+<br>
+
+- [ ] [`querySelector`](https://developer.mozilla.org/ko/docs/Web/API/Document/querySelector)를 활용하여 우리는 웹 페이지에서 원하는 요소를 선택할 수 있습니다. 사용법을 알아보고, 대안이나 유사한 API가 있다면 함께 비교하며 조사해보세요.
+- [ ] [`addEventListener`](https://developer.mozilla.org/ko/docs/Web/API/EventTarget/addEventListener)를 활용하여 우리가 선택한 요소에 사용자가 인터렉션 하는 것을 감지할 수 있습니다. 사용법을 알아보고, 대안이 있다면 함께 비교하며 조사해보세요.
+- [ ] DOM의 이벤트를 다루기 위해서는 이벤트 위임에 대해 잘 이해해야 합니다. 다음 키워드에 대해 조사해보세요.
+  - 이벤트 캡처링 vs 이벤트 버블링
+  - event.stopPropagation
+  - event.target vs event.currentTarget
+- [ ] [`document.querySelectorAll`](https://developer.mozilla.org/ko/docs/Web/API/Document/querySelectorAll)과 [`document.getElementsByClassName`](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)의 가장 핵심적인 기능상 차이점은 무엇일까요?
+- [ ] [removeEventListener](https://developer.mozilla.org/ko/docs/Web/API/EventTarget/removeEventListener)의 사용법 또한 조사해보세요.
+
+<br>
+
+### 과제 제출 후
+
+- [ ] 이번 과제에서 우리는 DOM을 활용하여 작업하게 됩니다. 과연 DOM은 무엇일까요? JavaScript와 DOM은 같은 것일까요?
+- [ ] 웹 페이지가 브라우저에 그려지는 과정은 생각보다 간단하지 않습니다. 여러분이 작업한 웹 페이지는 어떤 과정을 거쳐 화면에 나타나게 되는 것일까요?
 
 <br>
 <br>
