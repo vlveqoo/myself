@@ -8,9 +8,24 @@
     <link rel="stylesheet" href="/src/styles/reset.css" />
     <link rel="stylesheet" href="/src/styles/index.css" />
     <script defer type="module" src="/src/js/app.js"></script>
+    <script defer type="text/javascript" src="/src/js/login.js"></script>
   </head>
   <body>
-    <img id="vaco" src="/src/assets/vaco.png" />
-    <main></main>
+    <img id="vaco" src="/src/assets/vaco.png"/>
+    <main>
+      <h1>Chit Chat</h1>
+      <div class="form">
+        <label for="user-name">
+          <span>사용자이름</span>
+          <input type="text" name="user-name">
+          <ul class="error-msg">
+            <ol>사용가능한 이름은 2자~20자 사이로 가능합니다.</ol>
+            <ol>특수 문자는 사용할 수 없습니다.</ol>
+            <ol>2~20자 이내로 해야하며, 특수문자는 사용할 수 없습니다.</ol>
+          </ul>
+        </label>
+      </div>
+      <button id="btn-login" disabled="true">로그인</button>
+    </main>
   </body>
 </html>

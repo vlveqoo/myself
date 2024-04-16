@@ -69,3 +69,5 @@ for (let i = 0; i < CHAT_HISTORY.length; i++) {
 
   console.log(message);
 }
+
+export { CHAT_HISTORY, generateHexCode }; 

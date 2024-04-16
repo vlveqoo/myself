@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="/src/assets/vaco_symbol.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chit Chat</title>
+    <link rel="stylesheet" href="/src/styles/reset.css" />
+    <link rel="stylesheet" href="/src/styles/index.css" />
+    <script defer type="module" src="/src/js/app.js"></script>
+    <script defer type="module" src="/src/js/chat.js"></script>
+</head>
+<body>
+    <img id="vaco" src="/src/assets/vaco.png" />
+    <main class="chat-view">
+        <div class="msg-list">
+            <div class="text-box">
+                <p>2023-02-14</p>
+                <ul>
+                    <li>
+                        <span>켄</span>
+                        <span>안녕하세요!안녕하세요!안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요안녕하세요!안녕하세요!안녕하세요!</span>
+                        <span>19:00</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="new-msg">
+                <span>새로운 메세지</span>
+            </div>
+        </div>
+        <form onsubmit="return false" class="user-msg">
+            <input type="text" placeholder="메세지를 입력해주세요." class="create-input">
+            <input type="submit" value="전송" class="btn" disabled>
+        </div>
+    </main>
+</body>
+</html>
